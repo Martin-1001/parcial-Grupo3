@@ -21,4 +21,18 @@ export class CafeListComponent implements OnInit {
       this.cafes = cafes;
     });
   }
+
+  contarPorTipo(tipo: string): number {
+    return this.cafes.filter(
+      (cafe) => cafe.tipo.trim().toLowerCase() === tipo.toLowerCase()
+    ).length;
+  }
+
+  get totalOrigen(): number {
+    return this.contarPorTipo('Café de Origen');
+  }
+
+  get totalBlend(): number {
+    return this.contarPorTipo('Blend');
+  }
 }

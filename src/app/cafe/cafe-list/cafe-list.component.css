@@ -1,4 +1,10 @@
 table {
   max-width: 640px;
   font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.total {
+  font-size: 0.875rem;
+  margin: 0;
 }
