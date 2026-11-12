@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CafeModule } from './cafe/cafe.module';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CafeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
