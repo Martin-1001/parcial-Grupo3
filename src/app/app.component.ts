@@ -8,5 +8,5 @@ import { CafeModule } from './cafe/cafe.module';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'parcial-grupo3';
+  title = 'El aroma mágico';
 }
